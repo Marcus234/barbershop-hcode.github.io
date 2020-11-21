@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberShop</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="BarberShop: A barbearia feita para você"/>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="preload" href="assets/css/main.css" as="style" />
+</head>
+<body>
+    
+    <header id="header">
+
+        <div id="overlay"></div>
+
+          <a href="index.html">
+
+            <img src="assets/logo/barbershop.png" id="logo" alt="Logo">
+            <img src="assets/logo/barbershop-footer.png" id="logo-white" alt="Logo Branco">
+
+          </a>
+
+        <img src="assets/imagens/open-menu.svg" width="42" height="42" alt="Botão menu" class="btn-menu" id="btn-menu" />
+
+        <img src="assets/imagens/open-menu-white.svg" width="42" height="42" alt="Botão menu" class="btn-menu" id="btn-menu-white" />
+
+        <div id="menu" class="menu">
+
+            <nav>
+
+                <ul>
+
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="services.html">SERVIÇOS</a></li>
+                    <li><a href="history.html">QUEM SOMOS</a></li>
+                    <li><a href="contact.html">CONTATO</a></li>
+
+                    <li class="divider"><hr /></li>
+    
+                    <button><a href="login.html">LOGIN</a></button>
+
+                    <div class="perfil">
+
+                      <img src="assets/imagens/login.png" alt="Foto de Perfil">
+
+                      <div class="usuário">
+
+                        <h2>Marcus Ribeiro</h2>
+                        <small>marcusvribeiro23@hotmail.com</small>
+
+                      </div>
+
+                    </div>
+
+                    <div class="deslogar">
+
+                      <img src="assets/imagens/right-arrow.svg" alt="">
+                      <img src="assets/imagens/right-arrow-white.png" id="sair-white" alt="">
+
+                      <p>Sair</p>
+                      
+                    </div>
+
+                </ul>
+
+                <div>
+
+                    
+
+                </div>
+
+            </nav>
+
+            
+        </div>
+        
+        <img src="assets/imagens/close-menu.svg" width="42" height="42" alt="Botão menu" class="btn-close" id="btn-close" />
+
+        <img src="assets/imagens/close-menu-white.svg" width="42" height="42" alt="Botão menu" class="btn-close" id="btn-close-white" />
+
+    </header>
+
+    <main class="main-calendary" id="calendary">
+
+      <img class="banner-calendary" src="assets/imagens/calendary.png" alt="Banner Agendamento">
+
+      <h1>Agendamento</h1>
+
+      <header class="opção">
+
+        <ul>
+
+          <li><p>Corte</p></li>
+          <li class="escolha">Corte</li>
+          <li><p>Barba</p></li>
+          <li class="escolha">Barba</li>
+          <li><p class="diferente">Corte e Barba</p></li>
+          <li class="escolha">Corte e Barba</li>
+          <li><p>Bigode</p></li>
+          <li class="escolha">Bigode</li>
+
+        </ul>
+
+      </header>
+
+      <section id="align">
+        <div class="calendar">
+            <header class="day">
+                <h2>HOJE</h2>
+            </header>
+            <div class="month">
+                <h2>Novembro 2020</h2>
+            </div>
+            <ul class="weekdays">
+                <li>Dom</li>
+                <li>Seg</li>
+                <li>Ter</li>
+                <li>Qua</li>
+                <li>Qui</li>
+                <li>Sex</li>
+                <li>Sab</li>
+            </ul>
+            <ul class="days">   
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li class="active">5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li class="month-next">1</li>
+                <li class="month-next">2</li>
+                <li class="month-next">3</li>
+                <li class="month-next">4</li>
+                <li class="month-next">5</li>   
+            </ul>
+            
+            <div class="esquerda">
+
+              <img src="assets/imagens/left-arrow.png" id="left-black" alt="Anterior">
+
+              <img src="assets/imagens/left-arrow-white.png" id="left-white" alt="Anterior">
+              
+              <p>Anterior</p>
+
+            </div>
+
+            <div class="direita">
+
+              <img src="assets/imagens/right-arrow.png" id="right-black" alt="Próximo">
+
+              <img src="assets/imagens/right-arrow-white.png" id="right-white" alt="Próximo">
+              
+              <p>Próximo</p>
+
+            </div>
+            
+        </div>
+
+        <button><a href="#">AGENDAR</a></button>
+
+    </section>
+
+    </main>
+
+    <footer id="footer-calendary">
+
+      <nav>
+
+        <ul>LINKS
+
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="services.html">SERVIÇOS</a></li>
+          <li><a href="history.html">QUEM SOMOS</a></li>
+          <li><a href="contact.html">CONTATO</a></li>
+          <li><a href="login.html">LOGIN</a></li>
+
+        </ul>
+
+      </nav>
+
+      <div id="socials">
+
+        <div class="facebook">
+
+          <img src="assets/imagens/facebook.svg" alt="Facebook">
+
+          <p>BarberShop</p>
+
+        </div>
+
+        <div class="instagram">
+
+          <img src="assets/imagens/instagram.svg" alt="Instagram">
+
+          <p>@barbershop</p>
+
+        </div>
+
+        <div class="whatsapp">
+
+          <img src="assets/imagens/whatsapp.svg" alt="WhatsApp">
+
+          <p>(11) 99999-0000</p>
+
+        </div>
+
+      </div>
+
+      <div id="logo-footer">
+
+        <a href="index.html">
+      
+          <img src="assets/logo/barbershop-footer.png" alt="Logo footer">
+
+        </a>
+
+      </div>
+
+      <hr>
+
+      <p>© Copyright HcodeLab</p>
+
+    </footer>
+
+    <script>
+        const btnOpen = document.querySelector('#btn-menu');
+          btnOpen.addEventListener('click', e=> {
+            const header = document.querySelector('#header');
+            header.classList.toggle('open-menu');
+          }
+        );
+        const btnClose = document.querySelector('#btn-close');
+          btnClose.addEventListener('click', e=> {
+            const header = document.querySelector('#header');
+            header.classList.toggle('open-menu');
+          }
+        );
+      </script>
+</body>
+</html>

@@ -1,0 +1,292 @@
+#home {
+    flex-direction: column;
+    img {
+        width: 100%;
+    }
+    .title {
+        margin-left: 10px;
+        z-index: 1;
+        position: absolute;
+        display: inline;
+        margin-top: 20px;
+        h1 {
+            font-weight: bold;
+            color: var(--white-3);
+            margin: 0;
+        }
+        small {
+            color: var(--white-3);
+        }
+    }
+    section {
+        flex-direction: column;
+        .text {
+            margin-left: 5px;
+            h2 {
+                font-size: 20px;
+                font-weight: bold;
+                position: absolute;
+            }
+            hr {
+                position: relative;
+                margin: 0;
+                height: 4px;
+                width: 80%;
+                background-color: var(--black);
+                border: none;
+            }
+            p {
+                margin: 0;
+                position: relative;
+                top: 60px;
+                font-size: 15px;
+                margin-bottom: 100px;
+            }
+        }
+        .home-services, .home-local, .home-contact {
+            background-color: var(--gray-2);
+            position: relative;
+            height: 160px;
+            img {
+                width: 143px;
+                height: 142px;
+                top: 10px;
+                position: absolute;
+            }
+            .descrição {
+                position: absolute;
+                right: 10px;
+                width: 50%;
+                top: -10px;
+                h2 {
+                    font-size: 20px;
+                    font-weight: bold;
+                    position: absolute;
+                }
+                hr {
+                    position: relative;
+                    margin: 0;
+                    height: 4px;
+                    width: 80%;
+                    background-color: var(--black);
+                    border: none;
+                }
+                p {
+                    margin: 0;
+                    position: relative;
+                    top: 50px;
+                    font-size: 15px;
+                }
+                button {
+                    position: absolute;
+                    left: 70px;
+                    top: 130px;
+                    width: 82px;
+                    height: 30px;
+                    border-radius: 7px;
+                    cursor: pointer;
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .home-local {
+            background-color: var(--white-1);
+            flex-direction: row-reverse;
+            img {
+                height: 142px;
+            }
+            .descrição {
+                left: 10px;
+            }
+        }
+    }
+}
+@media (min-width: 375px) {
+    #home {
+        section {
+            .home-services, .home-local, .home-contact {
+                height: 165px;
+                img {
+                    width: 163px;
+                    height: 142px;
+                }
+                .descrição {
+                    button {
+                        top: 135px;
+                        left: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    #home {
+        position: relative;
+        top: -20px;
+        .title {
+            margin-left: 20px;
+            h1 {
+                font-size: 50px;
+            }
+            small {
+                font-size: 20px;
+            }
+        }
+        section {
+            .text {
+                h2 {
+                    font-size: 30px;
+                }
+                hr {
+                    height: 5px;
+                }
+                p {
+                    top: 80px;
+                    font-size: 20px;
+                    margin-bottom: 120px;
+                }
+            }
+            .home-services, .home-local, .home-contact {
+                height: 245px;
+                img {
+                    width: 270px;
+                    height: 212px;
+                }
+                .descrição {
+                    right: 90px;
+                    h2 {
+                        font-size: 30px;
+                    }
+                    p {
+                        font-size: 25px;
+                        top: 70px;
+                    }
+                    button {
+                        top: 195px;
+                        left: 350px;
+                        width: 112px;
+                        height: 40px;
+                        border-radius: 8px;
+                        a {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1200px) {
+    #home {
+        height: 2000px;
+        align-self: center;
+        top: 0;
+        bottom: 0;
+        img {
+            position: relative;
+            top: 0;
+            height: 650px;
+        }
+        .title {
+            top: 90px;
+            margin-left: 20px;
+            h1 {
+                font-size: 70px;
+            }
+            small {
+                font-size: 30px;
+            }
+        }
+        section {
+            .text {
+                h2 {
+                    font-size: 35px;
+                }
+                hr {
+                    height: 5px;
+                }
+                p {
+                    top: 100px;
+                    font-size: 25px;
+                    margin-bottom: 150px;
+                }
+            }
+            .home-services, .home-local, .home-contact {
+                height: 335px;
+                img {
+                    width: 546px;
+                    height: 313px;
+                }
+                .descrição {
+                    right: 30px;
+                    button {
+                        top: 285px;
+                        left: 480px;
+                        width: 142px;
+                        height: 50px;
+                        border-radius: 10px;
+                        a {
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1920px) {
+    #home {
+        height: 3000px;
+        img {
+            height: 850px;
+        }
+        .title {
+            margin-left: 30px;
+        }
+        section {
+            .text {
+                h2 {
+                    font-size: 40px;
+                }
+                hr {
+                    height: 6px;
+                }
+                p {
+                    top: 110px;
+                    font-size: 30px;
+                    margin-bottom: 170px;
+                }
+            }
+            .home-services, .home-local, .home-contact {
+                height: 545px;
+                img {
+                    width: 570px;
+                    height: 512px;
+                }
+                .descrição {
+                    right: 270px;
+                    h2 {
+                        font-size: 40px;
+                    }
+                    p {
+                        font-size: 35px;
+                        top: 100px;
+                    }
+                    button {
+                        top: 455px;
+                        left: 890px;
+                        width: 222px;
+                        height: 80px;
+                        border-radius: 10px;
+                        a {
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
